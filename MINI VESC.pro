@@ -1,4 +1,4 @@
-update=8/18/2017 8:08:17 PM
+update=11/28/2017 11:19:04 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -56,19 +68,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Users/Anton/OneDrive/Work/Work/Kicad/mojaKniznica
-LibName31=C:/Users/Anton/OneDrive/Work/Work/Kicad/kicad_subory/kniznica-kicad
-LibName32=C:/Users/Anton/OneDrive/Work/Work/Kicad/kicad_subory/bldc-hardware-master/design/BLDC_4-cache
-LibName33=C:/Users/Anton/OneDrive/Work/Work/Kicad/kicad_subory/kicadlibrary-master/open-project
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
