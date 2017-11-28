@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\anton\Desktop\MINI4\MINI VESC.sch</source>
-    <date>11/26/2017 2:50:50 PM</date>
+    <source>C:/Users/anton/OneDrive/Work/Work/Kicad/Projekty/MINI4/MINI VESC.sch</source>
+    <date>11/29/2017 12:09:23 AM</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -43,7 +43,7 @@
     <comp ref="R3">
       <value>R0005</value>
       <footprint>mojaKniznica:2512Rv2</footprint>
-      <libsource lib="kniznica-kicad" part="RSENS"/>
+      <libsource lib="MINI VESC-cache" part="RSENS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5890E02B</tstamp>
     </comp>
@@ -78,7 +78,7 @@
     <comp ref="R2">
       <value>R0005</value>
       <footprint>mojaKniznica:2512Rv2</footprint>
-      <libsource lib="kniznica-kicad" part="RSENS"/>
+      <libsource lib="MINI VESC-cache" part="RSENS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5890FF81</tstamp>
     </comp>
@@ -113,7 +113,7 @@
     <comp ref="R1">
       <value>R0005</value>
       <footprint>mojaKniznica:2512Rv2</footprint>
-      <libsource lib="kniznica-kicad" part="RSENS"/>
+      <libsource lib="MINI VESC-cache" part="RSENS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58910139</tstamp>
     </comp>
@@ -155,42 +155,42 @@
     <comp ref="P4">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58963115</tstamp>
     </comp>
     <comp ref="P5">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58963808</tstamp>
     </comp>
     <comp ref="P6">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58963B6C</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589669D4</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58966A83</tstamp>
     </comp>
     <comp ref="P3">
       <value>CONN_1</value>
       <footprint>kicad_subory:prekov</footprint>
-      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <libsource lib="MINI VESC-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58966FB5</tstamp>
     </comp>
@@ -386,7 +386,7 @@
     <comp ref="U8">
       <value>LMR16006YDDCT</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <libsource lib="kniznica-kicad" part="BD9G101G"/>
+      <libsource lib="MINI VESC-cache" part="BD9G101G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B9EB0</tstamp>
     </comp>
@@ -491,7 +491,7 @@
     <comp ref="X1">
       <value>ABM3B-8.000MHZ</value>
       <footprint>mojaKniznica:5x3.2KRISTALL</footprint>
-      <libsource lib="BLDC_4-cache" part="CRYSTAL_SMD"/>
+      <libsource lib="MINI VESC-cache" part="CRYSTAL_SMD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58EA69C5</tstamp>
     </comp>
@@ -930,16 +930,16 @@
       <tstamp>59B0FA9C</tstamp>
     </comp>
     <comp ref="C80">
-      <value>2u2 100V 56x</value>
+      <value>10u</value>
       <footprint>Resistors_SMD:R_1206</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59B0FAB0</tstamp>
     </comp>
     <comp ref="U7">
-      <value>STM32F40X_LQFP64</value>
+      <value>STM32F405RGT6</value>
       <footprint>crf1:lqfp64_pad_mod</footprint>
-      <libsource lib="BLDC_4-cache" part="STM32F40X_LQFP64"/>
+      <libsource lib="MINI VESC-cache" part="STM32F40X_LQFP64"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58912BD6</tstamp>
     </comp>
@@ -1002,7 +1002,7 @@
     <comp ref="L1">
       <value>Wurth Electronics 74438335220</value>
       <footprint>mojaKniznica:WE-MAPI</footprint>
-      <libsource lib="BLDC_4-cache" part="INDUCTOR"/>
+      <libsource lib="MINI VESC-cache" part="INDUCTOR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59B5DE22</tstamp>
     </comp>
@@ -1044,35 +1044,35 @@
     <comp ref="U9">
       <value>MCP1700</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <libsource lib="kniznica-kicad" part="MCP1700"/>
+      <libsource lib="MINI VESC-cache" part="MCP1700"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59B7A38C</tstamp>
     </comp>
     <comp ref="U10">
       <value>MCP1700</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <libsource lib="kniznica-kicad" part="MCP1700"/>
+      <libsource lib="MINI VESC-cache" part="MCP1700"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59B7A56E</tstamp>
     </comp>
     <comp ref="U1">
       <value>LM5113SDE</value>
       <footprint>kicad_subory:WSON10__</footprint>
-      <libsource lib="mojaKniznica" part="LM5001"/>
+      <libsource lib="MINI VESC-cache" part="LM5001"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59B9E9BC</tstamp>
     </comp>
     <comp ref="U2">
       <value>LM5113SDE</value>
       <footprint>kicad_subory:WSON10__</footprint>
-      <libsource lib="mojaKniznica" part="LM5001"/>
+      <libsource lib="MINI VESC-cache" part="LM5001"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59BA003F</tstamp>
     </comp>
     <comp ref="U3">
       <value>LM5113SDE</value>
       <footprint>kicad_subory:WSON10__</footprint>
-      <libsource lib="mojaKniznica" part="LM5001"/>
+      <libsource lib="MINI VESC-cache" part="LM5001"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59BA1D90</tstamp>
     </comp>
@@ -1103,7 +1103,7 @@
         <pin num="8" name="IN+" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="kniznica-kicad" part="BD9G101G">
+    <libpart lib="MINI VESC-cache" part="BD9G101G">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">BD9G101G</field>
@@ -1152,7 +1152,7 @@
         <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BLDC_4-cache" part="CONN_1">
+    <libpart lib="MINI VESC-cache" part="CONN_1">
       <fields>
         <field name="Reference">P</field>
         <field name="Value">CONN_1</field>
@@ -1161,7 +1161,7 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BLDC_4-cache" part="CRYSTAL_SMD">
+    <libpart lib="MINI VESC-cache" part="CRYSTAL_SMD">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">CRYSTAL_SMD</field>
@@ -1190,7 +1190,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BLDC_4-cache" part="INDUCTOR">
+    <libpart lib="MINI VESC-cache" part="INDUCTOR">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">INDUCTOR</field>
@@ -1214,7 +1214,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mojaKniznica" part="LM5001">
+    <libpart lib="MINI VESC-cache" part="LM5001">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">LM5001</field>
@@ -1230,7 +1230,7 @@
         <pin num="10" name="LO" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="kniznica-kicad" part="MCP1700">
+    <libpart lib="MINI VESC-cache" part="MCP1700">
       <aliases>
         <alias>MCP1703A-3302E/MB</alias>
         <alias>MCP1703A-1202/MB</alias>
@@ -1250,8 +1250,6 @@
         <alias>MCP1703A-4002E/MB</alias>
         <alias>MCP1703A-5002E/MB</alias>
       </aliases>
-      <description>Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin&lt;=16V</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</docs>
       <footprints>
         <fp>SOT89*</fp>
       </footprints>
@@ -1293,8 +1291,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="kniznica-kicad" part="RSENS">
-      <description>Resistor</description>
+    <libpart lib="MINI VESC-cache" part="RSENS">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -1310,7 +1307,7 @@
         <pin num="4" name="~" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="BLDC_4-cache" part="STM32F40X_LQFP64">
+    <libpart lib="MINI VESC-cache" part="STM32F40X_LQFP64">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">STM32F40X_LQFP64</field>
@@ -1390,17 +1387,11 @@
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
+    <library logical="MINI VESC-cache">
+      <uri>C:\Users\anton\OneDrive\Work\Work\Kicad\Projekty\MINI4\MINI VESC-cache.lib</uri>
+    </library>
     <library logical="linear">
       <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
-    </library>
-    <library logical="mojaKniznica">
-      <uri>C:\Users\Anton\OneDrive\Work\Work\Kicad\mojaKniznica.lib</uri>
-    </library>
-    <library logical="kniznica-kicad">
-      <uri>C:\Users\Anton\OneDrive\Work\Work\Kicad\kicad_subory\kniznica-kicad.lib</uri>
-    </library>
-    <library logical="BLDC_4-cache">
-      <uri>C:\Users\Anton\OneDrive\Work\Work\Kicad\kicad_subory\bldc-hardware-master\design\BLDC_4-cache.lib</uri>
     </library>
   </libraries>
   <nets>
