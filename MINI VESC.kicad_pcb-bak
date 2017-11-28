@@ -3920,7 +3920,7 @@
       (net 4 VSS))
     (pad 64 smd rect (at -5.75056 -3.74904 180) (size 1.30048 0.3) (layers B.Cu B.Paste B.Mask)
       (net 42 VCC))
-    (model ${KIPRJMOD}/3dmodels/lqfp-64.wrl
+    (model ${KIPRJMOD}/${KIPRJMOD}/3dmodels/lqfp-64.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4898,7 +4898,7 @@
       (net 1 VDD))
     (pad 3 smd rect (at -0.4525 -2.5275) (size 0.905 0.495) (layers B.Cu B.Paste B.Mask)
       (net 1 VDD))
-    (model "${KIPRJMOD}/3dmodels/1PQFN 5x6.wrl"
+    (model "${KIPRJMOD}/${KIPRJMOD}/3dmodels/1PQFN 5x6.wrl"
       (at (xyz -0.12 0.1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
