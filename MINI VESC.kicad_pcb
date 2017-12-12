@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171114) (host pcbnew "(2017-11-24 revision a01d81e4b)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(2017-12-12 revision 5f6f03b16)-makepkg")
 
   (general
     (thickness 1.6)
@@ -3952,7 +3952,7 @@
     (pad 6 thru_hole rect (at -3.75 0 90) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 4 VSS))
     (model ${KISYS3DMOD}/Connectors_JST.3dshapes/JST_XH_B06B-XH-A_06x2.50mm_Straight.wrl
-      (at (xyz -3.75 0 0))
+      (offset (xyz -3.75 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
     )
@@ -3984,7 +3984,7 @@
     (pad 6 thru_hole rect (at -3.75 0 270) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 4 VSS))
     (model ${KISYS3DMOD}/Connectors_JST.3dshapes/JST_XH_B06B-XH-A_06x2.50mm_Straight.wrl
-      (at (xyz -3.75 0 0))
+      (offset (xyz -3.75 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
     )
@@ -4016,7 +4016,7 @@
     (pad 6 thru_hole rect (at -3.75 0 270) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 4 VSS))
     (model ${KISYS3DMOD}/Connectors_JST.3dshapes/JST_XH_B06B-XH-A_06x2.50mm_Straight.wrl
-      (at (xyz -3.75 0 0))
+      (offset (xyz -3.75 0 0))
       (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
     )
@@ -5832,7 +5832,7 @@
   (gr_line (start 70 100) (end 131 100) (layer Edge.Cuts) (width 0.001))
   (gr_line (start 70 82) (end 131 82) (layer Edge.Cuts) (width 0.001))
   (dimension 65 (width 0.1) (layer Dwgs.User)
-    (gr_text "65.000 mm" (at 100.5 78.305785) (layer Dwgs.User) (tstamp 5A306519)
+    (gr_text "65.000 mm" (at 100.5 78.305785) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.1)))
     )
     (feature1 (pts (xy 68 82) (xy 68 76.955785)))
@@ -5844,7 +5844,7 @@
     (arrow2b (pts (xy 133 79.655785) (xy 131.873496 80.242206)))
   )
   (dimension 18 (width 0.1) (layer Dwgs.User)
-    (gr_text "18.000 mm" (at 64.65 90.956115 90) (layer Dwgs.User) (tstamp 5A30651A)
+    (gr_text "18.000 mm" (at 64.65 90.956115 90) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.1)))
     )
     (feature1 (pts (xy 68 81.956115) (xy 63.3 81.956115)))

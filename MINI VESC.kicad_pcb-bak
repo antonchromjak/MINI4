@@ -11,10 +11,10 @@
 
   (page A4 portrait)
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal hide)
-    (2 In2.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0)
     (solder_mask_min_width 0.1)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFDFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x0000c_00000000)
       (usegerberextensions false)
